@@ -13,9 +13,9 @@
 - Changed nav-links from buttons to list items
 - Added to body sections
 - Added Changelog to README.md
-
-http://s319er.ddns.net/rightToRepair24/index.html
 ```
+[Site on the 24 - 03 - 2019](http://s319er.ddns.net/rightToRepair24/index.html)
+
 
 ```
 20 - 03 - 2019
@@ -27,9 +27,9 @@ http://s319er.ddns.net/rightToRepair24/index.html
 - Decided to use Abel font for body text
 - Tweaked the Nav-buttons to allow for space between button and nav-bar edge
 - Added JavaScript hover effects
-
-http://s319er.ddns.net/rightToRepair20/index.html
 ```
+[Site on the 20 - 03 - 2019](http://s319er.ddns.net/rightToRepair20/index.html)
+
 
 ```
 19 - 03 - 2019
@@ -37,6 +37,6 @@ http://s319er.ddns.net/rightToRepair20/index.html
 - Completed basic navigation style
 - Positioned basic sections
 - Began Javascript hover effects
-
-http://s319er.ddns.net/rightToRepair19/index.html
 ```
+[Site on the 19 - 03 - 2019](http://s319er.ddns.net/rightToRepair19/index.html)
+
