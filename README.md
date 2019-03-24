@@ -14,6 +14,7 @@
 - Added to body sections
 - Added Changelog to README.md
 
+http://s319er.ddns.net/rightToRepair24/index.html
 ```
 
 ```
@@ -26,6 +27,8 @@
 - Decided to use Abel font for body text
 - Tweaked the Nav-buttons to allow for space between button and nav-bar edge
 - Added JavaScript hover effects
+
+http://s319er.ddns.net/rightToRepair20/index.html
 ```
 
 ```
@@ -34,4 +37,6 @@
 - Completed basic navigation style
 - Positioned basic sections
 - Began Javascript hover effects
+
+http://s319er.ddns.net/rightToRepair19/index.html
 ```
