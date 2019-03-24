@@ -1,87 +1,127 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/uikit.css">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
         <title>Right to Repair [WIP]</title>
     </head>
     <body>
         <nav>
-            <img src="RightToRepairBlock.png">
-            <div class="buttonWrapper">
-                <button
-                    onmouseover='navHover("Intro")'
-                    onmouseout='navHoverEnd("Intro")'
-                    id="Intro"
-                    style="font-size: 3vh;"
-                >
-                    Introduction
-                </button>
-                <button 
-                    onmouseover='navHover("Section1")'
-                    onmouseout='navHoverEnd("Section1")'
-                    onclick='sectionScroll("Section1")'
-                    id="Section1"
-                    style="font-size: 2.3vh;"
-                >
-                    Why its important
-                </button>
-                <button 
-                    onmouseover='navHover("Section2")'
-                    onmouseout='navHoverEnd("Section2")'
-                    onclick='sectionScroll("Section2")'
-                    id="Section2"
-                    style="font-size: 3vh;"
-                >
-                    History
-                </button>
-                <button
-                    onmouseover='navHover("Section3")'
-                    onmouseout='navHoverEnd("Section3")'
-                    onclick='sectionScroll("Section3")'
-                    id="Section3"
-                    style="font-size: 2.3vh;"
-                >
-                    What's being done
-                </button>
-                <button 
-                    onmouseover='navHover("Section4")'
-                    onmouseout='navHoverEnd("Section4")'
-                    id="Section4"
-                    style="font-size: 2.6vh;"
-                >
-                    What you can do
-                </button>
-                <button 
-                    onmouseover='navHover("Section5")' 
-                    onmouseout='navHoverEnd("Section5")' 
-                    id="Section5" 
-                    style="font-size: 3vh;"
-                >
-                    Contact
-                </button>
+            <a href="#top"><img src="images/RightToRepairBlock.png"></a>
+            <div class="buttonWrapper" id="nav">
+                <ul class="navList" uk-scrollspy-nav="closest: li; scroll: true">
+                    <li>
+                        <a 
+                            href="#intro"
+                            style="font-size: 3vh;"
+                        >
+                            Introduction
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="#Sec1"
+                            style="font-size: 2.3vh;"
+                        >
+                            Why its important
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="#Sec2"
+                            style="font-size: 3vh;"
+                        >
+                            History
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="#Sec3"
+                            style="font-size: 2.3vh;"
+                        >
+                            What's being done
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="#Sec4"
+                            id="Section4"
+                            style="font-size: 2.6vh;"
+                        >
+                            What you can do
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="#Sec5"
+                            style="font-size: 3vh;"
+                        >
+                            Contact
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <main>
+        <main id="top">
             <div class="title">
                 <p class="header1">The Right to Repair</p>
             </div>
-            <div class="introduction">
-                <div>
-                    <img src="RepairImage_2.png">
-                </div>
-                <div class="text1">
-                    <div class="introHeader">
-                        <p class="header2">So, Whats the deal?</p>
+            <div class="introduction" id="intro">
+                <div class="flexRow">
+                    <div>
+                        <img src="images/RepairImage_2.png">
                     </div>
-                    <div class="introBody">
-                        <p class="bodyText">Stuff. Lorem ipsum um yeah the bad is the ray in the dog 
-                        bed although she seemed to like the way the sun was 
-                        not very appropriate behaviour.
+                    <div class="body rightEdge">
+                        <div class="introHeader leftEdge">
+                            <p class="whitebackHeader">So, Whats the deal?</p>
+                        </div>
+                        <div class="introBody leftEdge">
+                            <p class="whitebackBodyText">
+                                A few decades ago, if something you had broke, you could just fix it or 
+                                get your neighbor to do it for you. If none of those were options, then you 
+                                could find some local repair shop and they would fix it for you at a cheap price.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bigPoint">
+                        <p>
+                            These days, those options are quickly disapearing, and its becoming harder to 
+                            repair electronic equiptment, such as computers, phones and cars.
                         </p>
+                </div>
+                <div class="flexRow">
+                    <div class="introBody leftEdge">
+                        <p class="whitebackBodyText">
+                            Unfortunatly, this is the result of planned obsolencence. Maunfactures are 
+                            deliberatly designing their products to only last a few years at most. They
+                            refuse to publish any sort of repair documentation, suggesting that if your product 
+                            breaks, you take it to one of their 'authorised' repair shops. 
+                            <b>
+                                The 'Right to Repair' movement was created to stop this from continuing. The people involved 
+                                in the movement have been attempting to pass new legistation laws for several years now, however
+                                large companys, such as Apple, have been successfully blocking them.
+                            </b>
+                        </p>
+                    </div>
+                    <div>
+                        <img class="rightEdge" src="images/manufacturing.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="Section1" id="Sec1">
+                <p class="bluebackHeader">Ok, but why do we have to worry?</p>
+                <div class="flexRow"> 
+                    <p class="bluebackBodyText">
+                        <b>In the US alone, 50 million tons of E-waste is generated every year</b> as a result of 
+                    </p>   
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <img src="images/robot.png" class="uk-animation-shake"></img>
                     </div>
                 </div>
             </div>
         </main>
+        <script src="js/uikit.js"></script>
+        <script src="js/jquery.js"></script>
     </body>
 </html>

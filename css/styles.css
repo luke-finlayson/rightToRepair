@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Changa|Nanum+Pen+Script|Caveat|Abel|Righteous');
+
+/* Colour Scheme:
+    
+    Dark Blue: #1C5D99
+    Medium Dark Blue: #007EA7
+    Medium BLue: #06AED5 (Backgrounds)
+    Light Blue: #63D2FF
+    Blue - White: #F7F9F9;
+
+*/
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/*::-webkit-scrollbar {
+    width: 18px;
+}
+::-webkit-scrollbar-track {
+    background: #F7F9F9;
+}
+::-webkit-scrollbar-thumb {
+    background: #06AED5;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #007EA7;
+}*/
+
+/* Some universal styling */
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+p {
+    cursor: default;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* Styling and positioning the navigation bar */
+nav {
+    background: #06AED5;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    display: inline-block;
+    -webkit-box-shadow: 3px 5px 17px 0px rgba(28,93,153,0.23); /* Adding a slight shadow */
+    -moz-box-shadow: 3px 5px 17px 0px rgba(28,93,153,0.23);
+    box-shadow: 3px 5px 17px 0px rgba(28,93,153,0.23);
+}
+
+nav img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    background: #F7F9F9;
+    border-radius: 10px;
+}
+
+.buttonWrapper {
+    width: 100%;
+    bottom: 0px;
+    margin: auto;
+}
+
+.navList {
+    padding: 0;
+    margin: 0;
+    margin-top: 27%;
+    width: 95%;
+}
+
+.navlist a {
+    font-family: 'Changa', sans-serif;
+    font-weight: 600;
+    color: #F7F9F9;
+    text-align: center;
+}
+
+.navlist li {
+    text-align: center;
+    border-radius: 0px 50px 50px 0px;
+    padding: 5%;
+    margin-top: 20%;
+}
+
+.uk-active, .uk-active a{
+    background: #F7F9F9;
+    color: #3B3B3B;
+}
+
+nav button {
+    font-family: 'Changa', sans-serif;
+    font-weight: 600;
+    color: #F7F9F9;
+    background: none;
+    border: none;
+    display: block;
+    text-align: center;
+    width: 90%;
+    border-radius: 0px 50px 50px 0px;
+    padding: 5%;
+    padding-left: 12%;
+    margin-top: 20%;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Main body styling and positioning */
+
+main {
+    background: url(../images/background_2.svg);
+    width: 85%;
+    background-position: right;
+    background-size: 90%;
+    float: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.header1 {
+    font-family: 'Nanum Pen Script', cursive;
+    color: #1c5d99;
+    font-size: 8vh;
+    margin: auto;
+    width: 40%;
+    padding: 0.5%;
+    text-align: center;
+    background: #F7F9F9;
+    border-radius: 10px;
+    -webkit-box-shadow: 11px 13px 25px 0px rgba(28,93,153,0.23);
+    -moz-box-shadow: 11px 13px 25px 0px rgba(28,93,153,0.23);
+    box-shadow: 11px 13px 25px 0px rgba(28,93,153,0.23);
+    position: relative;
+}
+
+.title {
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+.introduction {
+    width: 100%;
+    background: #F7F9F9;
+    padding-bottom: 5vh;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.introduction img {
+    height: 30vh;
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+
+/* Styling for different coloured backgrounds */
+.whitebackHeader {
+    font-size: 7vh;
+    color: #1C5D99;
+    font-family: 'Caveat', cursive;
+    margin-bottom: -1vh;
+}
+.bluebackHeader {
+    color: #F7F9F9;
+    font-size: 7vh;
+    font-family: 'Caveat', cursive;
+}
+.whitebackBodyText {
+    font-size: 3.5vh;
+    color: #707070;
+    font-family: 'Abel', Helvetica, sans-serif;
+}
+.bluebackBodyText {
+    font-size: 3.5vh;
+    color: #F7F9F9;
+    font-family: 'Abel', Helvetica, sans-serif;
+}
+
+.Section1 {
+    background: #007EA7;
+    margin-top: 0%;
+    padding-left: 5vh;
+    padding-top: 1vh;
+}
+.Section1 img {
+    width: 80%;
+    margin: auto;
+}
+
+.bigPoint {
+    color: #007EA7;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Righteous', cursive;
+    font-size: 3.92vh;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#slideshow {
+    background: #707070;
+}
+
+.rightEdge {
+    margin-right: 5vh;
+}
+
+.leftEdge {
+    margin-left: 5vh;
+}
