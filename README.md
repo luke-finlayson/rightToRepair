@@ -11,7 +11,7 @@
 - Added every section
 - Fixed wall-e
 ```
-[Site on the 30 - 03 - 2019](http://s319er.ddns.net/rightToRepair30.index.html)
+[Site on the 30 - 03 - 2019](http://s319er.ddns.net/rightToRepair30/index.html)
 
 
 ```
