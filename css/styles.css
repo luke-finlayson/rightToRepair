@@ -14,20 +14,6 @@
     width: 0px;
 }
 
-/*::-webkit-scrollbar {
-    width: 18px;
-}
-::-webkit-scrollbar-track {
-    background: #F7F9F9;
-}
-::-webkit-scrollbar-thumb {
-    background: #06AED5;
-    border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #007EA7;
-}*/
-
 /* Some universal styling */
 body {
     margin: 0px 0px 0px 0px;
@@ -95,9 +81,15 @@ nav img {
     margin-top: 20%;
 }
 
-.uk-active, .uk-active a{
+.navlist li:hover:not(.uk-active) {
+    background: #007EA7;
+}
+
+.uk-active{
     background: #F7F9F9;
-    color: #3B3B3B;
+}
+.uk-active a{
+    color: #3B3B3B;;
 }
 
 nav button {
@@ -156,6 +148,7 @@ main {
     width: 100%;
     background: #F7F9F9;
     padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 
 .flexRow {
@@ -165,7 +158,6 @@ main {
 
 .introduction img {
     height: 30vh;
-    padding-top: 5vh;
     padding-left: 5vh;
 }
 
@@ -175,11 +167,14 @@ main {
     color: #1C5D99;
     font-family: 'Caveat', cursive;
     margin-bottom: -1vh;
+    margin-top: 1vh;
 }
 .bluebackHeader {
     color: #F7F9F9;
     font-size: 7vh;
     font-family: 'Caveat', cursive;
+    margin-bottom: -1vh;
+    margin-top: 1vh;
 }
 .whitebackBodyText {
     font-size: 3.5vh;
@@ -192,15 +187,39 @@ main {
     font-family: 'Abel', Helvetica, sans-serif;
 }
 
-.Section1 {
+.mediumDarkBlueSection {
     background: #007EA7;
     margin-top: 0%;
     padding-left: 5vh;
-    padding-top: 1vh;
+    padding-right: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
-.Section1 img {
-    width: 80%;
+.whiteBackSection {
+    background: #F7F9F9;
+    margin-top: 0%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.lightBlueBackSection {
+    background: #63D2FF;
+    margin-top: 0%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.wall-e-container {
     margin: auto;
+    padding: auto;
+    width: min-content;
+    margin-left: 1vh;
+}
+.wall-e {
+    height: 25vh;
 }
 
 .bigPoint {
