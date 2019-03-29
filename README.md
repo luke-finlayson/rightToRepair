@@ -3,6 +3,16 @@
 ## THIS PROJECT IS FOR EDUCATIONAL PURPOSES ONLY. ANY CONTENT WITHIN THIS PROJECT IS SUBJECT TO CHANGE AND IS ABOUT AS RELIABLE AS WIKIPEIDIA
 
 #### CHANGELOG
+```
+30 - 03 - 2019
+
+- Added hover effect to navigation items
+- Redid CSS classnames to increase code efficency (Now reusing classes)
+- Added every section
+- Fixed wall-e
+```
+[Site on the 30 - 03 - 2019](http://s319er.ddns.net/rightToRepair30.index.html)
+
 
 ```
 24 - 03 - 2019
