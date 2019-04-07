@@ -10,7 +10,7 @@
 - Expanded research and sections
 - Bugfixes
 ```
-[Site on the 06 - 04 - 2019](hhtp://s319er.ddns.net/rightToRepair6/index.html)
+[Site on the 06 - 04 - 2019](http://s319er.ddns.net/rightToRepair6/index.html)
 
 ```
 30 - 03 - 2019
