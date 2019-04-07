@@ -79,10 +79,12 @@ nav img {
     border-radius: 0px 50px 50px 0px;
     padding: 5%;
     margin-top: 20%;
+    transition: 1s;
 }
 
 .navlist li:hover:not(.uk-active) {
     background: #007EA7;
+    transition: 1s;
 }
 
 .uk-active{
@@ -222,24 +224,19 @@ main {
     height: 25vh;
 }
 
-.bigPoint {
+.whiteBackBigPoint {
     color: #007EA7;
     margin-left: 10vh;
     margin-right: 10vh;
     font-family: 'Righteous', cursive;
     font-size: 3.92vh;
 }
-
-#slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-}
-
-#slideshow {
-    background: #707070;
+.blueBackBigPoint {
+    color: #F7F9F9;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: 'Righteous', cursive;
+    font-size: 3.92vh;
 }
 
 .rightEdge {
@@ -248,4 +245,69 @@ main {
 
 .leftEdge {
     margin-left: 5vh;
+}
+
+/* Slideshow Styling */
+#slideshow {
+    overflow: hidden;
+    height: 255px;
+    width: 364px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .slide-wrapper {
+    width: 1456px;
+    -webkit-animation: slide 28s ease infinite;
+    animation: slide 28s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 255px;
+    width: 364px;
+  }
+  
+  .slide:nth-child(1) {
+    background: url(../images/sackOphones@0,5x.jpg);
+    background-size: cover;
+  }
+  
+  .slide:nth-child(2) {
+    background: url(../images/waste1@0,5x.jpg);
+    background-size: cover;
+  }
+  
+  .slide:nth-child(3) {
+    background: url(../images/waste2@0,5x.jpg);
+    background-size: cover;
+  }
+  
+  .slide:nth-child(4) {
+    background: url(../images/waste3@0,5x.jpg);
+    background-size: cover;
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -364px;}
+    50% {margin-left: -364px;}
+    60% {margin-left: -728px;}
+    70% {margin-left: -728px;}
+    80% {margin-left: -1092px;}
+    90% {margin-left: -1092px;}
+  }
+  @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -364px;}
+    50% {margin-left: -364px;}
+    60% {margin-left: -728px;}
+    70% {margin-left: -728px;}
+    80% {margin-left: -1092px;}
+    90% {margin-left: -1092px;}
 }
