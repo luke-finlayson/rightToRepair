@@ -9,15 +9,16 @@
 - Created slideshow
 - Expanded research and sections
 - Bugfixes
+- Created Attributions.txt
 ```
 [Site on the 06 - 04 - 2019](http://s319er.ddns.net/rightToRepair6/index.html)
 
 ```
 30 - 03 - 2019
 
-- Added hover effect to navigation items
+- Created hover effect for navigation items
 - Redid CSS classnames to increase code efficency (Now reusing classes)
-- Added every section
+- Created every section container
 - Fixed wall-e
 ```
 [Site on the 30 - 03 - 2019](http://s319er.ddns.net/rightToRepair30/index.html)
