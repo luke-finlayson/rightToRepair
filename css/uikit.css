@@ -116,6 +116,9 @@
 .uk-animation-fast {
   animation-duration: 0.1s;
 }
+.uk-animation-slow {
+  animation-duration: 1s;
+}
 /* Keyframes used by animation classes
  ========================================================================== */
 /*
