@@ -4,6 +4,17 @@
 
 #### CHANGELOG
 ```
+26 - 04 - 2019
+
+- Spellchecked with Grammerly
+- Tweaked fonts
+- Added lare external card links
+- Finalised Sections
+- Bugfixes
+```
+[Site on the 26 - 04 - 2019](http://s319er.ddns.net/rightToRepair26/index.html)
+
+```
 06 - 04 - 2019
 
 - Created slideshow
