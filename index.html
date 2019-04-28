@@ -1,26 +1,26 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/uikit.css">
+        <link rel="stylesheet" type="text/css" href="css/uikit.css"> <!-- Linking animation Stylesheet -->
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
-        <title>Right to Repair [WIP]</title>
+        <title>Right to Repair</title>
     </head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> <!-- jQuery Library for Scrollspy -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script>
             $(window).load(function() {
                 // Animate loader off screen
-                $(".se-pre-con").fadeOut("slow");;
+                $(".se-pre-con").fadeOut("slow");; // Fade out page loader when all elements have loaded
             });
     </script>
     <body>
-        <nav>
+        <nav> <!-- Navbar -->
             <a href="#top"><img src="images/RightToRepairBlock.png"></a>
             <div class="buttonWrapper" id="nav">
                 <ul class="navList" uk-scrollspy-nav="closest: li; scroll: true">
                     <li>
                         <a 
-                            href="#intro"
+                            href="#intro" <!-- Linked to intro container -->
                             style="font-size: 3vh;"
                         >
                             Introduction
