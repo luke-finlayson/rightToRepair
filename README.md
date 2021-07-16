@@ -1,5 +1,7 @@
 # The Right to Repair
-## THIS PROJECT IS FOR EDUCATIONAL PURPOSES ONLY. MADE UNDER THE CRITERIA OF THE NZQA ACHIEVEMENT STANDARD 91893
+This project is for educational purposes only. Made under the criteria of NZQA achievement standard 91893.
+
+## Note: As of 16/07/2021 the previous versions of the site are no longer being hosted and as such the links below will no longer work. The latest version of the site can still be accessed by downloading the source files.
 
 #### CHANGELOG
 ```
