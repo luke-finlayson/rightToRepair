@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Changa|Nanum+Pen+Script|Caveat|Abel|Righteous');
 
 /* Colour Scheme:
-    
+
     Dark Blue: #1C5D99
     Medium Dark Blue: #007EA7
     Medium BLue: #06AED5 (Backgrounds)
@@ -76,14 +76,14 @@ nav img {
     width: 95%;
 }
 
-.navlist a {
+.navLink {
     font-family: 'Changa', sans-serif;
     font-weight: 600;
     color: #F7F9F9;
     text-align: center;
 }
 
-.navlist li {
+.navItem {
     text-align: center;
     border-radius: 0px 50px 50px 0px;
     padding: 5%;
@@ -91,7 +91,7 @@ nav img {
     transition: 1s;
 }
 
-.navlist li:hover:not(.uk-active) {
+.navItem:hover:not(.uk-active) {
     background: #007EA7;
     transition: 1s;
 }
@@ -277,39 +277,39 @@ main {
     border-radius: 5px;
     margin-top: 3vh;
   }
-  
+
   .slide-wrapper {
     width: 1456px;
     -webkit-animation: slide 28s ease infinite;
     animation: slide 28s ease infinite;
   }
-  
+
   .slide {
     float: left;
     height: 355px;
     width: 364px;
   }
-  
+
   .slide:nth-child(1) {
     background: url(../images/sackOphones@0,5x.jpg);
     background-size: cover;
   }
-  
+
   .slide:nth-child(2) {
     background: url(../images/waste1@0,5x.jpg);
     background-size: cover;
   }
-  
+
   .slide:nth-child(3) {
     background: url(../images/waste2@0,5x.jpg);
     background-size: cover;
   }
-  
+
   .slide:nth-child(4) {
     background: url(../images/waste3@0,5x.jpg);
     background-size: cover;
   }
-  
+
   .slide-number {
     color: #000;
     text-align: center;
@@ -364,7 +364,7 @@ main {
 }
 .callToActionButtonImage {
     width: 100%;
-    border-radius: 5px 5px 0px 0px; 
+    border-radius: 5px 5px 0px 0px;
 }
 .callToActionButtonContainer {
     padding: 2px 16px;;
@@ -393,31 +393,31 @@ main {
       animation-timing-function: ease-in;
       opacity: 0;
     }
-  
+
     40% {
       -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
       transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
       -webkit-animation-timing-function: ease-in;
       animation-timing-function: ease-in;
     }
-  
+
     60% {
       -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
       transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
       opacity: 1;
     }
-  
+
     80% {
       -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
       transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
     }
-  
+
     to {
       -webkit-transform: perspective(400px);
       transform: perspective(400px);
     }
   }
-  
+
   @keyframes flipInX {
     from {
       -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
@@ -426,31 +426,31 @@ main {
       animation-timing-function: ease-in;
       opacity: 0;
     }
-  
+
     40% {
       -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
       transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
       -webkit-animation-timing-function: ease-in;
       animation-timing-function: ease-in;
     }
-  
+
     60% {
       -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
       transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
       opacity: 1;
     }
-  
+
     80% {
       -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
       transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
     }
-  
+
     to {
       -webkit-transform: perspective(400px);
       transform: perspective(400px);
     }
   }
-  
+
   .flipInX {
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
@@ -526,7 +526,7 @@ main {
     animation-name: fadeIn;
     animation-duration: 0.4s
   }
-  
+
   /* Modal Content */
   .modal-content {
     position: fixed;
@@ -538,7 +538,7 @@ main {
     animation-name: slideIn;
     animation-duration: 0.4s
   }
-  
+
   /* The Close Button */
   .close {
     color: white;
@@ -546,45 +546,45 @@ main {
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
   }
-  
+
   .modal-header {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
   }
-  
+
   .modal-body {padding: 2px 16px;}
-  
+
   .modal-footer {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
   }
-  
+
   /* Add Animation */
   @-webkit-keyframes slideIn {
-    from {bottom: -300px; opacity: 0} 
+    from {bottom: -300px; opacity: 0}
     to {bottom: 0; opacity: 1}
   }
-  
+
   @keyframes slideIn {
     from {bottom: -300px; opacity: 0}
     to {bottom: 0; opacity: 1}
   }
-  
+
   @-webkit-keyframes fadeIn {
-    from {opacity: 0} 
+    from {opacity: 0}
     to {opacity: 1}
   }
-  
+
   @keyframes fadeIn {
-    from {opacity: 0} 
+    from {opacity: 0}
     to {opacity: 1}
   }
